@@ -1,14 +1,15 @@
 # Blockchain bridge simplified
 
-This project contains multiple pieces to create a functional (although **not production ready**) blockchain bridge between two EVM compaticle chains.
+This project contains multiple pieces to create a functional (although **not production ready**) ERC20 blockchain bridge between two EVM compaticle chains.
 
-To use these you'll need access to nodes in different chains. [Check out Chainstack website to learn more](https://chainstack.com).
+It uses a wallet as an escrow and leverages the events triggered from the ERC20 tokens to burn and mint tokens in each side of the bridge
 
 ## Requirements
 
-Node.js / NPM
+- Node.js / NPM
+- To use this bridge you'll need access to nodes in different chains. [Check out Chainstack website to learn more](https://chainstack.com).
 
-## Build / Compile
+## Build & Compile
 
 ### Smart contracts
 
@@ -22,6 +23,8 @@ To deploy your contracts run `npm run deploy:ori` and `npm run deploy:dest`.
 
 You'll get the contract address in the console.
 
+> You can test the contracts running `npm run test`.
+
 ### Front-end
 
 Rename `/web/.env.example` to `/web/.env` and fill in the details with your wallet address, RPC endpoints and token addresses from the deployed smart contracts.
@@ -31,6 +34,7 @@ To build the front-end, run `npm i` and `npm run build` inside the web directory
 ### Back-end
 
 The back-end service is required to actually run the bridge.
+
 Rename `/backend/.env.example` to `/backend/.env` and fill in the details with your wallet address, RPC endpoints and token addresses from the deployed smart contracts.
 
 Run `npm i` inside the backend directory. To start the back-end service run `npm start`.
