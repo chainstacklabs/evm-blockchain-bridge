@@ -1,4 +1,3 @@
-const { sign } = require('crypto')
 const Web3 = require('web3')
 
 //load env file
