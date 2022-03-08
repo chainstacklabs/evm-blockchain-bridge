@@ -32,7 +32,7 @@ contract DChainstackDollars is ERC20, ERC20Burnable {
         console.log("Tokens minted for %s", _recipient);
     }
 
-    // @dev called from the bridge when tokens are received on Quorum side
+    // @dev called from the bridge when tokens are received on Harmony side
     function burnFrom(address _account, uint256 _amount)
         public
         virtual
