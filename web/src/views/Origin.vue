@@ -127,8 +127,6 @@ export default defineComponent({
 
     const sendTokens = async function () {
       const amountFormatted = ethers.utils.parseUnits(amount.value, 18)
-      console.log('amountFormatted :>> ', amountFormatted)
-      console.log('amountFormatted.toString() :>> ', amountFormatted.toString())
 
       //@ts-expect-error Window.ethers not TS
       if (typeof window.ethereum !== 'undefined') {
