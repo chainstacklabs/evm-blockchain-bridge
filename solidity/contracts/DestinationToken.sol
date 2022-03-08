@@ -10,11 +10,8 @@ import {ERC20Burnable} from "@openzeppelin/contracts/token/ERC20/extensions/ERC2
 contract DChainstackDollars is ERC20, ERC20Burnable {
     address bridge;
 
-    event TokensMinted(address from, uint256 amount);
-
     constructor(address _bridge) ERC20("DChainstackDollars", "D-CHSD") {
         bridge = _bridge;
-        console.log("Bridge address set to %s", _bridge);
     }
 
     modifier onlyBridge() {
@@ -31,8 +28,6 @@ contract DChainstackDollars is ERC20, ERC20Burnable {
         virtual
         onlyBridge
     {
-        emit TokensMinted(_recipient, _amount);
-
         _mint(_recipient, _amount);
         console.log("Tokens minted for %s", _recipient);
     }
