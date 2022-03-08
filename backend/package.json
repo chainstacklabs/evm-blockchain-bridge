@@ -2,7 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "event-watcher.js",
   "scripts": {
     "start": "node event-watcher.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,9 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.0",
-    "ethers": "^5.5.4",
-    "socket.io": "^4.4.1",
-    "socket.io-client": "^4.4.1",
     "web3": "^1.7.0"
   }
 }
