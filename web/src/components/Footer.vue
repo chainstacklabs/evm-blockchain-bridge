@@ -45,7 +45,7 @@
       </div>
       <div class="mt-8 md:mt-0 md:order-1">
         <p class="text-center md:text-left text-base text-gray-400">
-          &copy; 2021 Created by A.Ufano for
+          &copy; 2022 Created by A.Ufano for
           <a class="hover:underline" href="https://chainstack.com"
             >Chainstack</a
           >
