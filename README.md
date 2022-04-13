@@ -1,5 +1,7 @@
 # Blockchain bridge simplified
 
+**[You can read the full article for this project in the Chainstack blog](https://chainstack.com/how-to-create-blockchain-bridge/)**
+
 This project contains multiple pieces to create a functional (although **not production ready**) ERC20 blockchain bridge between two EVM compaticle chains.
 
 It uses a wallet as an escrow and leverages the events triggered from the ERC20 tokens to burn and mint tokens in each side of the bridge
