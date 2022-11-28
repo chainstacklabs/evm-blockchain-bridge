@@ -11,7 +11,7 @@
           : 'bg-blue-100 text-blue-800 '
       "
       aria-current="page"
-      >ETH to Harmony</router-link
+      >Bridge to Destination Chain</router-link
     >
 
     <router-link
@@ -23,7 +23,7 @@
           : 'bg-teal-100 text-teal-800'
       "
       aria-current="page"
-      >Harmony to ETH</router-link
+      >Send token back to Original Chain</router-link
     >
   </div>
 </template>
