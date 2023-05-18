@@ -5,21 +5,21 @@
     </h1>
 
     <p>
-      This bridge allows you to send ChainstackDollars (D-CHSD) from {{destinationNetwork}} back to {{originNetwork}}
+      This bridge allows you to send tFren (tFren) from {{destinationNetwork}} back to {{originNetwork}}
     </p>
 
     <WalletConnect
       class="my-4"
       :targetNetwork="destinationNetwork"
       :targetNetworkId="destinationNetworkId"
-      :currency="ONE"
+      :currency="FREN"
       :decimals="4"
       :isNewNetwork="true"
     />
 
     <form class="w-96 mt-8 mx-auto">
       <label for="price" class="block mb-2 font-medium text-gray-700"
-        >How much D-CHSD do you want to bridge?</label
+        >How much tFren do you want to bridge?</label
       >
       <div class="mt-4 w-2/3 mx-auto relative rounded-md shadow-sm">
         <div
@@ -40,7 +40,7 @@
           class="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none"
         >
           <span class="text-gray-500 sm:text-sm" id="price-currency">
-            D-CHSD
+            tFren
           </span>
         </div>
       </div>

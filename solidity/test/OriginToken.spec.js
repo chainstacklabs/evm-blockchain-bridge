@@ -12,8 +12,8 @@ const {
 
 let tokenFactory, chainstackDollarsContract, owner, user1, user2, user3
 
-const NAME = 'ChainstackDollars'
-const SYMBOL = 'CHSD'
+const NAME = 'tFren'
+const SYMBOL = 'tFren'
 const TOTAL_SUPPLY = '100'
 const TOTAL_SUPPLY_DECIMALS = '100000000000000000000'
 

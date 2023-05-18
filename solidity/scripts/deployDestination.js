@@ -9,14 +9,14 @@ const main = async () => {
   console.log('Account balance: ', accountBalance.toString())
 
   let contractFactory = await hre.ethers.getContractFactory(
-    'DChainstackDollars'
+    'tFren'
   )
   let contract = await contractFactory.deploy(process.env.BRIDGE_WALLET)
 
   await contract.deployed()
 
   console.log(
-    'contract DChainstackDollars deployed to address: ',
+    'contract tFren deployed to address: ',
     contract.address
   )
 }

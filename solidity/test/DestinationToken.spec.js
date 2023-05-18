@@ -12,8 +12,8 @@ const {
 
 let tokenFactory, qchainstackDollarsContract, owner, bridge, user2, user3
 
-const NAME = 'DChainstackDollars'
-const SYMBOL = 'D-CHSD'
+const NAME = 'tFren'
+const SYMBOL = 'tFren'
 
 // Start test block
 describe('DChainstackDollars contract', function () {

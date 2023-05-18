@@ -5,17 +5,17 @@ const main = async () => {
   console.log('Deploying contracts with account: ', deployer.address)
   console.log('Account balance: ', accountBalance.toString())
 
-  let contractFactory = await hre.ethers.getContractFactory('ChainstackDollars')
+  let contractFactory = await hre.ethers.getContractFactory('tFren')
   let contract = await contractFactory.deploy(
-    'ChainstackDollars',
-    'CHSD',
+    'tFren',
+    'TFN',
     1000000
   )
 
   await contract.deployed()
 
   console.log(
-    'contract ChainstackDollars deployed to address: ',
+    'contract tFren deployed to address: ',
     contract.address
   )
 }

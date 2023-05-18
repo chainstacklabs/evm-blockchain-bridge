@@ -6,7 +6,7 @@ import "hardhat/console.sol";
 // Import ERC20
 import {ERC20} from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-contract ChainstackDollars is ERC20 {
+contract tFren is ERC20 {
     // create the token passing the name and symbol
     constructor(
         string memory _name,
