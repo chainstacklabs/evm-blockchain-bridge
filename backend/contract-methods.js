@@ -64,10 +64,10 @@ const transferToEthWallet = async (provider, contract, amount, address) => {
       from: BRIDGE_WALLET,
       // destination of the transaction is the ERC20 token address
       to: ORIGIN_TOKEN_CONTRACT_ADDRESS,
-      // data contains the amount an receiver params for transfer
+      // data contains the amount and receiver params for transfer
       data,
       // TO TEST!!!
-      gas: gas * 1.2,
+      gas: Math.ceil(gas * 1.2),
       gasPrice,
       nonce,
     }
