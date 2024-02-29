@@ -9,7 +9,7 @@
     "hardhat": "^2.8.4"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^4.5.0",
+    "@openzeppelin/contracts": "^4.9.6",
     "@openzeppelin/test-helpers": "^0.5.15",
     "dotenv": "^16.0.0"
   },
