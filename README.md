@@ -5,25 +5,25 @@
 </p>
 
 <p align="center">
-  <a target="_blank" href="https://chainstack.com/build-better-with-ethereum/"><img src="https://github.com/soos3d/blockchain-badges/blob/main/protocols_badges/Ethereum.svg" /></a>&nbsp;  
-  <a target="_blank" href="https://chainstack.com/build-better-with-bnb-smart-chain/"><img src="https://github.com/soos3d/blockchain-badges/blob/main/protocols_badges/BNB.svg" /></a>&nbsp;
-  <a target="_blank" href="https://chainstack.com/build-better-with-polygon/"><img src="https://github.com/soos3d/blockchain-badges/blob/main/protocols_badges/Polygon.svg" /></a>&nbsp;
-  <a target="_blank" href="https://chainstack.com/build-better-with-avalanche/"><img src="https://github.com/soos3d/blockchain-badges/blob/main/protocols_badges/Avalanche.svg" /></a>&nbsp;
-  <a target="_blank" href="https://chainstack.com/build-better-with-fantom/"><img src="https://github.com/soos3d/blockchain-badges/blob/main/protocols_badges/Fantom.svg" /></a>&nbsp;
+  <a target="_blank" href="https://chainstack.com/build-better-with-ethereum/?utm_source=github&utm_medium=referral&utm_campaign=evm-blockchain-bridge"><img src="https://github.com/soos3d/blockchain-badges/blob/main/protocols_badges/Ethereum.svg" /></a>&nbsp;  
+  <a target="_blank" href="https://chainstack.com/build-better-with-bnb-smart-chain/?utm_source=github&utm_medium=referral&utm_campaign=evm-blockchain-bridge"><img src="https://github.com/soos3d/blockchain-badges/blob/main/protocols_badges/BNB.svg" /></a>&nbsp;
+  <a target="_blank" href="https://chainstack.com/build-better-with-polygon/?utm_source=github&utm_medium=referral&utm_campaign=evm-blockchain-bridge"><img src="https://github.com/soos3d/blockchain-badges/blob/main/protocols_badges/Polygon.svg" /></a>&nbsp;
+  <a target="_blank" href="https://chainstack.com/build-better-with-avalanche/?utm_source=github&utm_medium=referral&utm_campaign=evm-blockchain-bridge"><img src="https://github.com/soos3d/blockchain-badges/blob/main/protocols_badges/Avalanche.svg" /></a>&nbsp;
+  <a target="_blank" href="https://chainstack.com/build-better-with-fantom/?utm_source=github&utm_medium=referral&utm_campaign=evm-blockchain-bridge"><img src="https://github.com/soos3d/blockchain-badges/blob/main/protocols_badges/Fantom.svg" /></a>&nbsp;
 </p>
 
 <p align="center">
-  • <a target="_blank" href="https://chainstack.com/">Homepage</a> •
-  <a target="_blank" href="https://chainstack.com/protocols/">Supported protocols</a> •
-  <a target="_blank" href="https://chainstack.com/blog/">Chainstack blog</a> •
-  <a target="_blank" href="https://docs.chainstack.com/quickstart/">Chainstack docs</a> •
-  <a target="_blank" href="https://docs.chainstack.com/quickstart/">Blockchain API reference</a> • <br> 
-  • <a target="_blank" href="https://console.chainstack.com/user/account/create">Start for free</a> •
+  • <a target="_blank" href="https://chainstack.com/?utm_source=github&utm_medium=referral&utm_campaign=evm-blockchain-bridge">Homepage</a> •
+  <a target="_blank" href="https://chainstack.com/protocols/?utm_source=github&utm_medium=referral&utm_campaign=evm-blockchain-bridge">Supported protocols</a> •
+  <a target="_blank" href="https://chainstack.com/blog/?utm_source=github&utm_medium=referral&utm_campaign=evm-blockchain-bridge">Chainstack blog</a> •
+  <a target="_blank" href="https://docs.chainstack.com/docs/platform-introduction?utm_source=github&utm_medium=referral&utm_campaign=evm-blockchain-bridge">Chainstack docs</a> •
+  <a target="_blank" href="https://docs.chainstack.com/reference/blockchain-apis?utm_source=github&utm_medium=referral&utm_campaign=evm-blockchain-bridge">Blockchain API reference</a> • <br> 
+  • <a target="_blank" href="https://console.chainstack.com/sign-up?utm_source=github&utm_medium=referral&utm_campaign=evm-blockchain-bridge">Start for free</a> •
 </p>
 
 # EVM Blockchain bridge simplified
 
-**[You can read the full article for this project in the Chainstack blog](https://chainstack.com/how-to-create-blockchain-bridge/)**
+**[You can read the full article for this project in the Chainstack blog](https://chainstack.com/how-to-create-blockchain-bridge/?utm_source=github&utm_medium=referral&utm_campaign=evm-blockchain-bridge)**
 
 This project contains multiple pieces to create a functional (although **not production ready**) ERC20 blockchain bridge between two EVM-compatible chains.
 
@@ -32,11 +32,11 @@ It uses a wallet as an escrow and leverages the events triggered by the ERC20 to
 ## Requirements
 
 - Node.js at least v18.15.0— [Install Node](https://nodejs.org/en)
-- You'll need access to nodes in different chains to use this bridge. [Check out the Chainstack docs to learn how to deploy nodes](https://docs.chainstack.com/docs/platform-introduction).
+- You'll need access to nodes in different chains to use this bridge. [Check out the Chainstack docs to learn how to deploy nodes](https://docs.chainstack.com/docs/platform-introduction?utm_source=github&utm_medium=referral&utm_campaign=evm-blockchain-bridge).
 
 ## Build & Compile
 
-Create a Metamask wallet and get some tokens for your target networks. This code was tested with Sepolia and BNB testnet. You can get testnet tokens using the [Chainstack Faucet](https://faucet.chainstack.com/sepolia-faucet).
+Create a Metamask wallet and get some tokens for your target networks. This code was tested with Sepolia and BNB testnet. You can get testnet tokens using the [Chainstack Faucet](https://faucet.chainstack.com/sepolia-testnet-faucet?utm_source=github&utm_medium=referral&utm_campaign=evm-blockchain-bridge).
 
 Clone the repository.
 
